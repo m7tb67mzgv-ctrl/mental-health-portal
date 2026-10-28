@@ -1,0 +1,182 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "0bee1d8a-2ae3-488f-9364-e425f0bee3c2",
+        "text": {
+          "ops": [
+            {
+              "insert": "Patient Portal Guide"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "9ee3a23e-dba8-4b59-8c17-b6722afc70cc",
+            "text": {
+              "ops": [
+                {
+                  "insert": " Appointments requested through this portal are not confirmed until the care team updates the appointment status."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a1ca7762-7ee4-4bec-8204-e445f26e3895",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Insurance details submitted here are for  review. The portal should contact insurers to verify benefits automatically."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "24e148eb-3a40-421b-8337-9102ee3ca254",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Copay and deductible amounts shown in the portal are to be made prior to confirming an appointment. This portal will charge a payment card. prior to scheduling as well"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a57e654e-7f38-4c53-83c0-609466350601",
+            "text": {
+              "ops": [
+                {
+                  "insert": "We will provide a HIPPA and  PCI compliant system that all data is encrypted in transit an d at rest and it will never be visited in Taskade"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a6420894-212b-4d39-b97d-d52e447898aa",
+            "text": {
+              "ops": [
+                {
+                  "insert": "This portal assistant can explain how to use the portal. It does not provide diagnosis, crisis care, or emergency response.",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "e3ac001c-cc60-494e-b940-3c9091db1d1b",
+            "text": {
+              "ops": [
+                {
+                  "insert": "If you may be in immediate danger, contact your local emergency services or go to the nearest emergency department.",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "🌐"
+    }
+  }
+}

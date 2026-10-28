@@ -1,0 +1,98 @@
+/* BHC reference: clear white and sky-tinted surfaces, navy navigation, and a restrained green signal. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --genesis-default-theme: system;
+    color-scheme: light;
+    --background: 204 83% 98%;
+    --foreground: 210 11% 15%;
+    --muted: 215 83% 95%;
+    --muted-foreground: 206 10% 28%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 11% 15%;
+    --border: 213 45% 88%;
+    --input: 213 35% 82%;
+    --card: 0 0% 100%;
+    --card-foreground: 210 11% 15%;
+    --primary: 202 99% 27%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 204 50% 92%;
+    --secondary-foreground: 210 11% 15%;
+    --accent: 202 28% 93%;
+    --accent-foreground: 202 99% 27%;
+    --destructive: 0 64% 42%;
+    --destructive-foreground: 0 0% 100%;
+    --ring: 202 99% 27%;
+    --radius: 0.55rem;
+    --chart-1: 202 99% 27%;
+    --chart-2: 85 59% 36%;
+    --chart-3: 206 10% 28%;
+    --chart-4: 202 70% 48%;
+    --chart-5: 42 70% 44%;
+    --font-sans: Inter, 'Roboto', Arial, Helvetica, sans-serif;
+    --font-display: 'Geist Variable', 'Lato', Arial, Helvetica, sans-serif;
+    --font-mono: 'JetBrains Mono Variable', ui-monospace, monospace;
+  }
+
+  .dark {
+    color-scheme: dark;
+    --background: 210 20% 8%;
+    --foreground: 204 25% 94%;
+    --muted: 205 18% 15%;
+    --muted-foreground: 205 12% 70%;
+    --popover: 210 18% 12%;
+    --popover-foreground: 204 25% 94%;
+    --border: 205 16% 23%;
+    --input: 205 16% 29%;
+    --card: 210 18% 12%;
+    --card-foreground: 204 25% 94%;
+    --primary: 202 72% 62%;
+    --primary-foreground: 210 24% 10%;
+    --secondary: 205 18% 18%;
+    --secondary-foreground: 204 25% 94%;
+    --accent: 202 26% 17%;
+    --accent-foreground: 202 72% 78%;
+    --destructive: 0 58% 48%;
+    --destructive-foreground: 0 0% 98%;
+    --ring: 202 72% 65%;
+    --chart-1: 202 72% 62%;
+    --chart-2: 85 52% 58%;
+    --chart-3: 204 25% 82%;
+    --chart-4: 202 64% 70%;
+    --chart-5: 42 75% 65%;
+  }
+
+  * { @apply border-border outline-ring/50; }
+  body { @apply bg-background text-foreground antialiased; font-family: var(--font-sans); }
+  h1, h2, h3, h4 { font-family: var(--font-display); }
+}
+
+:root {
+  --sidebar: hsl(204 70% 96%);
+  --sidebar-foreground: hsl(210 11% 15%);
+  --sidebar-primary: hsl(202 99% 27%);
+  --sidebar-primary-foreground: hsl(0 0% 100%);
+  --sidebar-accent: hsl(202 28% 93%);
+  --sidebar-accent-foreground: hsl(202 99% 27%);
+  --sidebar-border: hsl(213 45% 88%);
+  --sidebar-ring: hsl(202 99% 27%);
+}
+
+.dark {
+  --sidebar: hsl(210 18% 11%);
+  --sidebar-foreground: hsl(204 25% 94%);
+  --sidebar-primary: hsl(202 72% 62%);
+  --sidebar-primary-foreground: hsl(210 24% 10%);
+  --sidebar-accent: hsl(202 26% 17%);
+  --sidebar-accent-foreground: hsl(202 72% 78%);
+  --sidebar-border: hsl(205 16% 23%);
+  --sidebar-ring: hsl(202 72% 65%);
+}
+
+.genesis__spinner-container { position: fixed; inset: 0; z-index: 9999; display: flex; align-items: center; justify-content: center; background: hsl(var(--background)); }
+.genesis__spinner-ring { width: 20px; height: 20px; border: 1.5px solid transparent; border-top-color: hsl(var(--primary)); border-radius: 50%; animation: genesis__spin 1s linear infinite; }
+@keyframes genesis__spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .genesis__spinner-ring { animation: none; } }

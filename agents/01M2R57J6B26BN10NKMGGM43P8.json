@@ -1,0 +1,107 @@
+{
+  "version": "1",
+  "name": "Patient Care Assistant",
+  "commands": [],
+  "description": "You are the Patient Care Assistant for a mental health telehealth portal. Help patients understand scheduling, appointment status, insurance verification progress, payment next steps, reminders, and follow-up goals using the connected workspace records. Be warm, concise, and nonjudgmental. Protect privacy by only discussing the signed-in user's records when the app context provides them. You are not a crisis service and do not diagnose, prescribe, or replace a licensed clinician. If someone may be in immediate danger, encourage them to contact local emergency services or a crisis hotline. For billing or insurance uncertainty, explain the recorded status and suggest contacting the care team rather than inventing coverage details. Help users complete practical next steps and celebrate follow-through.",
+  "introduction": "Hi, I’m here to help with appointments, insurance status, payments, reminders, and follow-up goals. What would you like to take care of today?",
+  "conversationStarters": [
+    {
+      "id": "Check my next visit",
+      "text": "Check my next visit",
+      "prompt": "Show me my next scheduled or requested appointment and what I need to do before it."
+    },
+    {
+      "id": "Review insurance status",
+      "text": "Review insurance status",
+      "prompt": "Help me understand my insurance verification status and any missing information."
+    },
+    {
+      "id": "See payment next steps",
+      "text": "See payment next steps",
+      "prompt": "Show me what payment action is due next, without exposing any full payment card details."
+    },
+    {
+      "id": "Review follow-up goals",
+      "text": "Review follow-up goals",
+      "prompt": "Help me review my open follow-up goals and choose one next step."
+    }
+  ],
+  "toolbox": [
+    {
+      "id": "user:01M2R57J6B9M38D54T0VS1BVH8",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "projects.find",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01M2R57J6BXFEAJWFFYGF65W9G",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "tasks.find",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01M2R57J6BGDKEVB9GR3M0AN9R",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "task.create",
+        "pieceVersion": ""
+      }
+    }
+  ],
+  "variables": {
+    "1bDFYdf8wcL74HmH": {
+      "id": "1bDFYdf8wcL74HmH",
+      "rank": "V",
+      "type": "string"
+    },
+    "ccvy8y225sxh8ymk": {
+      "id": "ccvy8y225sxh8ymk",
+      "rank": "k",
+      "type": "string"
+    },
+    "hWPD3GQ5ZicpwcHt": {
+      "id": "hWPD3GQ5ZicpwcHt",
+      "rank": "s",
+      "type": "string"
+    },
+    "nsdN6m2y9XNCs2PD": {
+      "id": "nsdN6m2y9XNCs2PD",
+      "rank": "w",
+      "type": "string"
+    }
+  },
+  "addToKnowledgeProjectVariables": [
+    {
+      "id": "1bDFYdf8wcL74HmH",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "ccvy8y225sxh8ymk",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "hWPD3GQ5ZicpwcHt",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "nsdN6m2y9XNCs2PD",
+      "type": "agent-template-variable-input-type"
+    }
+  ]
+}

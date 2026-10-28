@@ -1,0 +1,892 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "9ce06d55-b09a-4796-a8aa-745873b5ef74",
+        "text": {
+          "ops": [
+            {
+              "insert": "Follow-Up Accountability"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "94f463af-8ffa-43d3-94e9-db4bf2b79a37",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Jordan Lee - practice grounding exercise",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@fpname1": "Jordan Lee",
+              "@fappt01": "b4f18d41-74cb-4cf5-9a8f-26f6815f6b21",
+              "@checkin1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-09-29T14:00:00.000Z"
+                }
+              },
+              "@goal001": "Practice grounding exercise 3 times",
+              "@fstatus1": {
+                "type": "Select",
+                "optionId": "in-progress"
+              },
+              "@fnotes1": "Sample data - patient is tracking practice in journal.",
+              "@coach001": "Review progress at next session."
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "0bf2a1a3-5ed4-4d57-b183-790812021139",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Sam Rivera - schedule intake forms",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@fpname1": "Sam Rivera",
+              "@fappt01": "c4f18d41-74cb-4cf5-9a8f-26f6815f6b21",
+              "@checkin1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-09-27T14:00:00.000Z"
+                }
+              },
+              "@goal001": "Complete intake forms before visit",
+              "@fstatus1": {
+                "type": "Select",
+                "optionId": "not-started"
+              },
+              "@fnotes1": "Sample data - reminder not yet sent.",
+              "@coach001": "Offer support if forms are difficult to complete."
+            },
+            "children": []
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@fpname1": {
+            "id": "/attributes/@fpname1",
+            "fieldPath": "/attributes/@fpname1",
+            "rank": "z"
+          },
+          "/attributes/@fappt01": {
+            "id": "/attributes/@fappt01",
+            "fieldPath": "/attributes/@fappt01",
+            "rank": "zV"
+          },
+          "/attributes/@checkin1": {
+            "id": "/attributes/@checkin1",
+            "fieldPath": "/attributes/@checkin1",
+            "rank": "zk"
+          },
+          "/attributes/@goal001": {
+            "id": "/attributes/@goal001",
+            "fieldPath": "/attributes/@goal001",
+            "rank": "zs"
+          },
+          "/attributes/@fstatus1": {
+            "id": "/attributes/@fstatus1",
+            "fieldPath": "/attributes/@fstatus1",
+            "rank": "zw"
+          },
+          "/attributes/@fnotes1": {
+            "id": "/attributes/@fnotes1",
+            "fieldPath": "/attributes/@fnotes1",
+            "rank": "zy"
+          },
+          "/attributes/@coach001": {
+            "id": "/attributes/@coach001",
+            "fieldPath": "/attributes/@coach001",
+            "rank": "zz"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@fpname1": {
+            "id": "/attributes/@fpname1",
+            "fieldPath": "/attributes/@fpname1",
+            "rank": "z"
+          },
+          "/attributes/@fappt01": {
+            "id": "/attributes/@fappt01",
+            "fieldPath": "/attributes/@fappt01",
+            "rank": "zV"
+          },
+          "/attributes/@checkin1": {
+            "id": "/attributes/@checkin1",
+            "fieldPath": "/attributes/@checkin1",
+            "rank": "zk"
+          },
+          "/attributes/@goal001": {
+            "id": "/attributes/@goal001",
+            "fieldPath": "/attributes/@goal001",
+            "rank": "zs"
+          },
+          "/attributes/@fstatus1": {
+            "id": "/attributes/@fstatus1",
+            "fieldPath": "/attributes/@fstatus1",
+            "rank": "zw"
+          },
+          "/attributes/@fnotes1": {
+            "id": "/attributes/@fnotes1",
+            "fieldPath": "/attributes/@fnotes1",
+            "rank": "zy"
+          },
+          "/attributes/@coach001": {
+            "id": "/attributes/@coach001",
+            "fieldPath": "/attributes/@coach001",
+            "rank": "zz"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@fpname1": {
+            "id": "/attributes/@fpname1",
+            "fieldPath": "/attributes/@fpname1",
+            "rank": "z"
+          },
+          "/attributes/@fappt01": {
+            "id": "/attributes/@fappt01",
+            "fieldPath": "/attributes/@fappt01",
+            "rank": "zV"
+          },
+          "/attributes/@checkin1": {
+            "id": "/attributes/@checkin1",
+            "fieldPath": "/attributes/@checkin1",
+            "rank": "zk"
+          },
+          "/attributes/@goal001": {
+            "id": "/attributes/@goal001",
+            "fieldPath": "/attributes/@goal001",
+            "rank": "zs"
+          },
+          "/attributes/@fstatus1": {
+            "id": "/attributes/@fstatus1",
+            "fieldPath": "/attributes/@fstatus1",
+            "rank": "zw"
+          },
+          "/attributes/@fnotes1": {
+            "id": "/attributes/@fnotes1",
+            "fieldPath": "/attributes/@fnotes1",
+            "rank": "zy"
+          },
+          "/attributes/@coach001": {
+            "id": "/attributes/@coach001",
+            "fieldPath": "/attributes/@coach001",
+            "rank": "zz"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@fpname1": {
+            "id": "/attributes/@fpname1",
+            "fieldPath": "/attributes/@fpname1",
+            "rank": "z"
+          },
+          "/attributes/@fappt01": {
+            "id": "/attributes/@fappt01",
+            "fieldPath": "/attributes/@fappt01",
+            "rank": "zV"
+          },
+          "/attributes/@checkin1": {
+            "id": "/attributes/@checkin1",
+            "fieldPath": "/attributes/@checkin1",
+            "rank": "zk"
+          },
+          "/attributes/@goal001": {
+            "id": "/attributes/@goal001",
+            "fieldPath": "/attributes/@goal001",
+            "rank": "zs"
+          },
+          "/attributes/@fstatus1": {
+            "id": "/attributes/@fstatus1",
+            "fieldPath": "/attributes/@fstatus1",
+            "rank": "zw"
+          },
+          "/attributes/@fnotes1": {
+            "id": "/attributes/@fnotes1",
+            "fieldPath": "/attributes/@fnotes1",
+            "rank": "zy"
+          },
+          "/attributes/@coach001": {
+            "id": "/attributes/@coach001",
+            "fieldPath": "/attributes/@coach001",
+            "rank": "zz"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@fpname1": {
+            "id": "/attributes/@fpname1",
+            "fieldPath": "/attributes/@fpname1",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@fappt01": {
+            "id": "/attributes/@fappt01",
+            "fieldPath": "/attributes/@fappt01",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@checkin1": {
+            "id": "/attributes/@checkin1",
+            "fieldPath": "/attributes/@checkin1",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@goal001": {
+            "id": "/attributes/@goal001",
+            "fieldPath": "/attributes/@goal001",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@fstatus1": {
+            "id": "/attributes/@fstatus1",
+            "fieldPath": "/attributes/@fstatus1",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@fnotes1": {
+            "id": "/attributes/@fnotes1",
+            "fieldPath": "/attributes/@fnotes1",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@coach001": {
+            "id": "/attributes/@coach001",
+            "fieldPath": "/attributes/@coach001",
+            "rank": "zz",
+            "hidden": false
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@fpname1": {
+            "id": "/attributes/@fpname1",
+            "fieldPath": "/attributes/@fpname1",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@fappt01": {
+            "id": "/attributes/@fappt01",
+            "fieldPath": "/attributes/@fappt01",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@checkin1": {
+            "id": "/attributes/@checkin1",
+            "fieldPath": "/attributes/@checkin1",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@goal001": {
+            "id": "/attributes/@goal001",
+            "fieldPath": "/attributes/@goal001",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@fstatus1": {
+            "id": "/attributes/@fstatus1",
+            "fieldPath": "/attributes/@fstatus1",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@fnotes1": {
+            "id": "/attributes/@fnotes1",
+            "fieldPath": "/attributes/@fnotes1",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@coach001": {
+            "id": "/attributes/@coach001",
+            "fieldPath": "/attributes/@coach001",
+            "rank": "zz",
+            "hidden": false
+          }
+        }
+      }
+    },
+    "fields": {
+      "@fpname1": {
+        "type": "string",
+        "displayName": "Patient Name"
+      },
+      "@fappt01": {
+        "type": "string",
+        "displayName": "Appointment ID"
+      },
+      "@checkin1": {
+        "type": "DateTime",
+        "title": "Check-in Date"
+      },
+      "@goal001": {
+        "type": "string",
+        "displayName": "Accountability Goal"
+      },
+      "@fstatus1": {
+        "type": "Select",
+        "displayName": "Follow-Up Status",
+        "options": {
+          "not-started": {
+            "id": "not-started",
+            "name": "Not Started",
+            "color": "#94A3B8",
+            "rank": "0"
+          },
+          "in-progress": {
+            "id": "in-progress",
+            "name": "In Progress",
+            "color": "#FBBF24",
+            "rank": "1"
+          },
+          "completed": {
+            "id": "completed",
+            "name": "Completed",
+            "color": "#34D399",
+            "rank": "2"
+          },
+          "needs-support": {
+            "id": "needs-support",
+            "name": "Needs Support",
+            "color": "#F87171",
+            "rank": "3"
+          }
+        }
+      },
+      "@fnotes1": {
+        "type": "string",
+        "displayName": "Patient Notes"
+      },
+      "@coach001": {
+        "type": "string",
+        "displayName": "Care Team Notes"
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "board",
+    "avatar": {
+      "type": "emoji",
+      "value": "📋"
+    }
+  }
+}

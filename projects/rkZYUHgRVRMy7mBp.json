@@ -1,0 +1,1797 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "9c160019-9ddf-4b94-a78e-54372b5afba9",
+        "text": {
+          "ops": [
+            {
+              "insert": "RESEARCH.md"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "f6d665fb-de6c-4666-a8ea-14292c33fc76",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Vendor questionnaire: openEHR repository and Phoenix portal",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "13465af7-49ff-489c-8866-e540f96c0ad0",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Instructions and shared scope",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "ae812fa4-1ace-4fef-b182-4f11add53dd0",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Please answer each item in this same order for EHRbase, Better, Atomik, and vitagroup. Mark items included, optional, unavailable, or out of scope, and state assumptions and exclusions.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "088387c7-274f-4fa3-b511-de65acb07bdc",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Identify the exact product, edition, release, and proposed service. Is this a CDR only, a managed EHRbase service, or a broader platform? List each included component.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "83bd150a-328a-4163-a425-a58202136c7e",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Shared project brief: Phoenix Behavioral Health is evaluating an openEHR-guided clinical chart, clinical notes, and group notes in its existing portal. No clinical backend is selected or connected, and PHI should not be stored in Taskade.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "bf697972-15ee-4526-bfc5-202e14898709",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "The source product was referred to as “Kiboo”; its exact spelling, vendor, export options, and data volumes are not yet confirmed. Please separate discovery assumptions from confirmed facts.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "34686090-db45-44d0-a42c-cac93180c687",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Phoenix will fill in these shared quote assumptions once and send the same values to every vendor: sites [ ]; clinician/admin accounts by role [ ]; active patients [ ]; new patients/year [ ]; compositions/patient/year [ ]; attachments and storage [ ]; average/peak API volume [ ]; environments [ ]; region [ ]; availability target/support hours [ ]; retention period [ ]. Quote any alternative scale tiers using the same units.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "2c6897e8-2716-4faf-937d-bd0fe0d6f166",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "State any information you need from Phoenix before giving a firm proposal. Do not substitute an unstated assumption for an unanswered item.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "4764cad3-40d5-4ed0-a612-9038705b25e6",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Clinical scope and openEHR capabilities",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "1d79335a-944b-4e8c-9d27-6ea97b8021fb",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Which openEHR specifications, Reference Model, REST API versions, and conformance tests does the proposed release support? Provide links and any deviations.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "ea2fb6d4-3d9f-4950-b6ae-5a1056bd3e75",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Which AQL features and functions are supported in production? Identify unsupported or partial areas, limits, and query/versioning behavior.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "d1478959-9f0f-4d42-aae2-4f60e3d95579",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Which additional APIs are included (for example FHIR, terminology, demographics, bulk import/export)? Give versions, conformance statements, rate limits, and licensing or usage fees.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "87c383ad-6efd-4735-a5de-e61adcbb1e76",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "How are templates, archetypes, terminology bindings, and local extensions authored, tested, promoted between environments, versioned, and retired?",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "4e35c578-4d45-4e33-933c-ec3fb841210d",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "How are composition versioning, correction/amendment, audit provenance, and retrieval of prior versions implemented and exposed through APIs?",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "c3777479-559b-4262-af58-f49c1eb8003c",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Provide a working demonstration or documentation for storing and retrieving a behavioral-health clinical note and a group note, including patient/group association and access controls.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "bfd28777-099f-4405-a640-2b08caabdfe9",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Hosting, operations, and resilience",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "7ceb8318-be8b-4cbc-a1ff-94be51d7b234",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Which deployment models are available: vendor-hosted, customer cloud, on-premises, or hybrid? Specify who operates each layer and what the quote covers.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "a9cf2c6f-0e5a-4df9-b951-8d40580ad10d",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "List supported cloud providers, regions, data-residency choices, network requirements, and environment topology. Are separate dev/test/staging/production environments priced separately?",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "490e93bf-5bb4-4d56-9aeb-17d50f072011",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Who handles provisioning, patching, upgrades, monitoring, capacity, certificates/secrets, incident response, and database administration? State customer responsibilities.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "061dc41b-3eba-4aa0-80fa-a6d528cdc238",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Provide availability commitment, measurement window, exclusions, service credits, maintenance windows, RTO, RPO, backup frequency, retention, and restore-test frequency.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "77566781-5e65-4d11-b6a4-c3f751ae7979",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Describe disaster recovery, incident communications, security patch timelines, release cadence, upgrade compatibility, and rollback procedures.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "26a92631-5363-49ac-a4fa-0d29a42b6799",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Identity, permissions, and security controls",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "fb84bf73-b0a2-41d6-b5b3-2ca48487cc03",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Which authentication standards and identity providers are supported (OIDC/OAuth2, SAML, other)? Explain issuer/audience validation, token lifetimes, key rotation, and service-account options.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "306693a2-4ae7-4fdc-9da7-e3c6a50dc944",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Can the service enforce therapist-to-patient and admin permissions on every clinical API request, including reads, writes, search/AQL, exports, and background jobs? Describe policy model and enforcement point.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "11aeb154-27da-4dea-a42f-12605c80e09a",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Can authorization use a delegated end-user identity or verified user claims, rather than one broadly privileged shared credential? Show how role and patient-care relationship changes take effect.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "f1eccfd0-7437-4517-9060-c8cb7a230f5c",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "What audit events are available for viewing, querying, creating, amending, exporting, and administrative actions? Can logs be exported, retained, and correlated to an individual user and patient record?",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "adec9166-1512-437a-ba21-9c42b66c11e2",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Describe encryption in transit/at rest, key ownership and rotation, tenant isolation, vulnerability management, penetration testing, security attestations, and incident/breach notice terms.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "53651d49-95cf-4be2-b67b-bfa4e8086cc4",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Will you execute the required healthcare data-processing/BAA terms for the specific services and deployment quoted? Identify subprocessors, data locations, retention/deletion, and any service components excluded.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "6462f0c0-f06e-4304-9a5e-96bdc22fc2bd",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Migration and data portability",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "75a6ec77-2254-4f95-b8d5-60f2ef8a8aca",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "What source exports do you accept, and what source discovery is required? The current source was called “Kiboo”; please do not assume its vendor, format, or export capability.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "fa479c2e-9269-4947-a337-2d000b70323c",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Separate estimates and deliverables for discovery/profiling, extraction, mapping to openEHR templates, transformation, import, and production cutover. State what is excluded.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "b732901c-eacf-4979-ba66-7a07ab55f0be",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "How will you preserve patient identifiers, source identifiers, authorship, encounter/group links, timestamps, attachments, amendments, and historical versions? Which elements cannot be carried over?",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "8b7c0a4c-ec03-45c4-9424-556b317dd8fb",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Describe mapping governance: who approves templates and mappings, how ambiguous or unmapped fields are handled, and how decisions are documented for later review.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "a1a0e07b-77fb-44cd-b8f2-97961ac74360",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "What reconciliation reports, sample-based clinical validation, count/hash checks, error queues, and sign-off evidence are included? How are re-runs made safe and auditable?",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "7d22465c-71a6-452f-81b9-03bc5925ba8b",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "State migration duration, Phoenix/vendor staffing, downtime or dual-running requirements, cutover/rollback plan, and assumptions by the shared volume tiers above.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "9b5f07c0-3739-43aa-80f0-d4983c96430c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Implementation, support, and service levels",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "47d005e3-f8d6-4061-aa41-feefc1091254",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Provide a phased implementation plan, milestones, acceptance criteria, Phoenix/vendor roles, required skills, and named deliverables. Separate template/API integration from historical migration.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "fee3ae67-41b4-4125-ba6c-e258fce5c4bf",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Quote onboarding, architecture, template design, configuration, testing, training, go-live, and post-launch assistance separately, with estimated effort and dependencies.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "e75aa4bc-0897-4cf2-9b43-975055073f16",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "What support hours, severity definitions, initial response and restoration targets, escalation path, named technical contact, and support languages are included at each tier?",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "5329c9b0-c4bb-495e-851b-bc5744b5e6e5",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "For EHRbase-based offers, distinguish upstream community support from vendor-supported components and identify who owns incidents spanning custom code, infrastructure, and the CDR.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "c606fb58-1c74-47d5-be02-76038079d3ad",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Provide customer references or production examples with comparable scale and clinical workflow, and identify any product roadmap dependency in your proposal.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "40ca65fd-55f6-4b9e-825a-be5154092990",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Phoenix portal, Supabase, and Keragon integration",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "0f66ab69-4f35-402d-9c28-d6496e242546",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Recommend a supported portal-to-CDR pattern for the existing Phoenix portal. Identify what runs in the browser, the server-side API, the CDR, Supabase, and any workflow service.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "ea147073-9bcd-4bbc-80eb-d40a6b058c96",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Can the CDR trust our chosen identity issuer and authorize a signed-in therapist/admin for a specific patient on every request? Specify token exchange, claims, relationship lookup, revocation, and audit requirements.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "1d778bef-ee4a-458f-b31a-fcb386f8edac",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "If Supabase is used for portal operations but not the canonical clinical record, what integration pattern do you support? State whether you support Supabase Auth/JWT, Postgres, webhooks, or only custom APIs, and identify unsupported designs.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "203922f4-8bc5-4d9f-bc18-db944bfc3467",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Can Keragon be used for asynchronous workflow events without becoming the clinical authorization boundary? Identify supported triggers/actions, identity context propagation, retries, idempotency, logging, and whether clinical data may pass through it under the proposed terms.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "ddeb8c42-d99d-4370-af98-e47ba3811c6e",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Provide a reference sequence or diagram for a portal read and write, including identity validation, therapist-to-patient authorization, audit, error handling, and any asynchronous integration.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "95accb64-66dd-4b04-ae7c-67b9b3b1d079",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Pricing, contract, and exit",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "60219074-ef03-4b98-830b-20ba660f4cfb",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Provide a line-item quote in USD for year 1, years 2-3, and a three-year total at the shared volume assumptions. Separate license/subscription, hosting, storage/usage, environments, implementation, migration, integration, support, and third-party charges.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "be981c45-c0ef-448d-835d-432b574b4b30",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "List one-time and recurring charges, minimum terms, renewal/escalation rules, taxes, overages, usage meters, minimum commitments, and any fees not in the headline price.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "1ffe58c8-0ea6-4a57-b9ed-f1bea99764f1",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Price the smallest evaluation environment and any trial separately. State duration, included services/support, production restrictions, conversion terms, and whether trial work is credited toward implementation.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "55fcb61c-f545-4f81-813e-2e93fdd30a7e",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "What additional costs arise at each shared scale tier, including users, patients, compositions, queries, API calls, storage, environments, backups, and support?",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "745055f9-b5b8-4846-89e1-3661ad884b9a",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Provide the price and process to export all clinical data, versions, audit records, templates, and attachments in documented, usable formats during the contract and at termination.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "f29faa02-b876-46ec-bdc2-d63cca76de24",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "State contract term, termination assistance, data return/deletion timeline, deletion evidence, transition support, and any early termination or egress charges.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "e265b8b3-8656-45b6-8f8e-c8664257a4db",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Attach the detailed quote, service description, SLA, architecture/data-flow diagram, security documents, API/conformance materials, and assumptions/exclusions. Confirm quote validity period.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "b1d5c430-a389-4ff4-b1bb-6a1ad8dda691",
+            "text": {
+              "ops": [
+                {
+                  "insert": "2026-10-26 - openEHR comparison: hosting, support, APIs, migration, cost",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "da3d859c-77d1-4961-9d68-b7e5fd13649e",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "EHRbase: Apache-2.0 open-source; can be self-deployed on-premises or in cloud, with Docker and PostgreSQL 15+ in its current quick-start/deployment notes. Offers openEHR REST and AQL. OAuth2 support exists, but therapist-to-patient relationship authorization still needs application policy. No license fee, but production infrastructure, engineering, backups, monitoring, upgrades, and support determine total cost. Sources: https://github.com/ehrbase/ehrbase and https://docs.ehrbase.org/docs/EHRbase/Explore/openEHR-REST",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "0b5a89b4-db9e-4851-afe9-f764738bba01",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Better Platform: public product material says it can be hosted by Better, run in the customer cloud, or on-premises, delivered by Better, its delivery partners, or the customer team. Its integrated clinical repository is openEHR and its operational repository is FHIR, with an API layer and app-building tools. Commercial terms/pricing and support SLA were not published in the reviewed pages; request a scoped quote. It may reduce platform assembly, but does not remove source-data extraction and mapping work. Sources: https://www.better.care/better-platform/ and https://www.better.care/request-a-demo/",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e7b7d5d8-47f1-4e3a-9231-6fadb229a420",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "CaboLabs Atomik: offers self-hosted deployments and managed deployment. For self-hosting, the vendor says the commercial license includes updates/documentation, with support packages separate; managed deployment includes infrastructure, updates, monitoring, and initial configuration. Public docs say openEHR ITS REST, a working subset of AQL, and a custom FHIR R4/R5 facade. CaboLabs estimates template/API integration may take days to weeks for many projects; that is not a legacy-data migration or production-rollout estimate. Pricing is quote-based by deployment, scale, and support. Sources: https://cabolabs.com/our_software/atomik/faq, https://cabolabs.com/our_software/atomik/documentation, and https://cabolabs.com/our_software/atomik/pricing",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "27fde6de-7a5b-451f-8608-50d4f807968d",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "vitagroup HIP EHRbase / HIP: vendor materials describe AWS Marketplace deployment options. The HIP listing offers a three-month test-and-learn period, custom pricing, and technical support under trial SLAs. EHRbase brings its openEHR REST/AQL interface; for the fuller HIP offer, confirm which APIs, managed operations, SLAs, and support are included in the proposed package. Source: https://aws.amazon.com/marketplace/pp/prodview-67vuu6cts7p2c and https://hip.vitagroup.ag/en/vitagroup-aws-innovation/",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c5ca8e21-30fc-40e6-bd8f-4820cc935ca3",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Migration effort cannot be responsibly estimated yet: the source product name is still unconfirmed (user said “Kiboo”), and exports, data volumes, note formats, identifiers, attachments, and historical data requirements are unknown. All options require source extraction, field/concept mapping to openEHR templates, validation, reconciliation, and cutover testing. Template/API implementation and historical-data conversion are distinct estimates. No Taskade patient submissions were migrated.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d54d8d90-e136-406d-8a1e-1ecd50592eb9",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Comparable quote checklist: separate license/subscription, hosting, environment count, storage and usage, implementation/templates, migration, integrations, support/SLA, backup/restore, upgrades, and exit/data export. Ask each vendor to price the same patient/composition volumes, environments, availability target, and support window. Public reviewed materials did not provide directly comparable production total-cost figures.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "c4e2f5a2-3a52-4a7b-877e-12304a3353bc",
+            "text": {
+              "ops": [
+                {
+                  "insert": "2026-10-26 - openEHR repository options and portal fit",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "eb744c0a-e248-459a-95b6-c179dfbbc538",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "EHRbase: active open-source openEHR CDR; project describes RM 1.1.0, openEHR REST API, model-based validation, and AQL queries. Best for a team wanting control and willing to own deployment, upgrades, monitoring, backups, and support. Sources: https://github.com/ehrbase/ehrbase and https://docs.ehrbase.org/docs/EHRbase/Explore/openEHR-REST",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "2ab14a58-d628-4860-83da-0103d2ad8bae",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Better Platform: commercial broader platform combining an openEHR clinical repository, FHIR operational repository, integration hub, and Better Studio low-code tooling. Potentially less assembly across the CDR and app-building layers; confirm product scope, deployment/hosting, contract, support, and total cost directly. Source: https://www.better.care/better-platform/",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f3014c99-c64b-4bb1-b225-0c94e0f86f59",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "CaboLabs Atomik: vendor-described openEHR clinical and demographic repository with template-defined structure and persistent API-backed storage. A commercial option to evaluate if the goal is a repository without assembling the whole platform. Verify deployment model, support, pricing, and available interfaces with the vendor. Sources: https://cabolabs.com/our_software/atomik and https://cabolabs.com/our_software/atomik/features",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e08cda54-44f0-4726-a12b-4726ea31592b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "vitagroup HIP EHRbase / HIP CDR: vendor-supported EHRbase and a wider health-data platform are listed by vitagroup. Worth comparing when operational support is important; confirm whether the offered deployment is a CDR-only service or the fuller HIP platform. Source: https://www.vitagroup.ag/en/products/",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "0bf872f3-2ccf-4491-8712-262047cdaf13",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Architecture fit: keep the selected openEHR CDR as the canonical store for clinical compositions, versions, and clinical queries. Use Supabase for the portal's relational/operational records only if that split suits Phoenix; do not assume an openEHR CDR can safely use Supabase as its internal database. Put the browser behind a server-side API that verifies the signed-in identity and therapist/admin-to-patient relationship before each clinical read/write.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "861333ca-4b1e-4ae8-89d2-e46ca3f2e27f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Keragon: its public PostgreSQL integration and HTTP webhook trigger support make it plausible for asynchronous integrations and event-driven tasks. The reviewed public material did not establish per-request forwarding of the portal user's identity or enforcement of Supabase RLS, so treat it as workflow plumbing, not the clinical authorization boundary. Source: https://www.keragon.com/integrations/postgresql and https://help.keragon.com/hc/en-us/articles/26592306434578-Using-the-HTTP-Webhook-Trigger",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "95f059b5-b0f9-48dd-9ba9-d35524e11922",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Supabase RLS can enforce policies from verified JWT claims; Supabase warns its service-role secret bypasses RLS and must stay server-side. Taskade OIDC-to-Supabase token trust has not been established, so validate issuer/audience/signature and user/therapist mapping before selecting the auth path. The current portal's patient-submission projects remain on Taskade and were not migrated by the shell work. Sources: https://supabase.com/docs/guides/database/postgres/row-level-security, https://supabase.com/docs/guides/auth/third-party/overview, and portal guide: https://www.taskade.com/d/BfcUk3WBCosXNt9d",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "⭐"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "version": "2",
+  "flowTitle": "Telehealth appointment reminder",
+  "trigger": {
+    "valid": false,
+    "displayName": "When a confirmed telehealth reminder is queued",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-taskade",
+      "pieceVersion": "1.0.0",
+      "triggerName": "task.added",
+      "input": {
+        "projectId": {
+          "type": "flow-template-variable-input-type",
+          "id": "QL8UyB9SAF9fXR5k"
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "acb07025-cdff-42b2-a6d9-adf0ab204d5a",
+      "valid": true,
+      "displayName": "Wait until 15 minutes before the session",
+      "type": "SLEEP",
+      "settings": {
+        "timeSetting": {
+          "type": "date",
+          "date": "{{ trigger[\"startDate\"] }}"
+        }
+      }
+    },
+    {
+      "name": "b637efe7-f5cf-4ea2-84db-361575b3269f",
+      "valid": false,
+      "displayName": "Email the patient a neutral reminder",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-piece-resend",
+        "pieceVersion": "1.0.0",
+        "actionName": "resend.sendEmail",
+        "input": {
+          "to": "{{ trigger[\"QL8UyB9SAF9fXR5k/fields/@rem01\"] }}",
+          "from": "",
+          "text": "Your telehealth session starts in 15 minutes. Please use the appointment details shared by your care team.",
+          "subject": "Your telehealth session starts in 15 minutes"
+        }
+      }
+    }
+  ],
+  "variables": {
+    "QL8UyB9SAF9fXR5k": {
+      "id": "QL8UyB9SAF9fXR5k",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

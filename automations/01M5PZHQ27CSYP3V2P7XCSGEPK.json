@@ -1,0 +1,47 @@
+{
+  "version": "2",
+  "flowTitle": "Insurance review alert",
+  "trigger": {
+    "valid": false,
+    "displayName": "When an insurance review is added",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-taskade",
+      "pieceVersion": "1.0.0",
+      "triggerName": "task.added",
+      "input": {
+        "projectId": {
+          "type": "flow-template-variable-input-type",
+          "id": "1bDFYdf8wcL74HmH"
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "46541b58-4d53-4ba2-a728-4fd7130cbc38",
+      "valid": true,
+      "displayName": "Email a staff alert",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "notify.email",
+        "input": {
+          "body": "A new insurance review request was added in the Harbor portal. Open Taskade to review it. No patient details are included in this alert.",
+          "format": "plain",
+          "subject": "New insurance review request",
+          "recipientEmail": "jason.ackner@phoenix-bhc.com"
+        }
+      }
+    }
+  ],
+  "variables": {
+    "1bDFYdf8wcL74HmH": {
+      "id": "1bDFYdf8wcL74HmH",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "version": "2",
+  "flowTitle": "New appointment request alert",
+  "trigger": {
+    "valid": false,
+    "displayName": "When an appointment request is added",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-taskade",
+      "pieceVersion": "1.0.0",
+      "triggerName": "task.added",
+      "input": {
+        "projectId": {
+          "type": "flow-template-variable-input-type",
+          "id": "nsdN6m2y9XNCs2PD"
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "fb3b2ca5-37e8-4cf5-ae63-0a308a6203a0",
+      "valid": true,
+      "displayName": "Email a staff alert",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "notify.email",
+        "input": {
+          "body": "A new appointment request was added in the Harbor portal. Open Taskade to review it. No patient details are included in this alert.",
+          "format": "plain",
+          "subject": "New appointment request",
+          "recipientEmail": "jason.ackner@phoenix-bhc.com"
+        }
+      }
+    }
+  ],
+  "variables": {
+    "nsdN6m2y9XNCs2PD": {
+      "id": "nsdN6m2y9XNCs2PD",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}
